@@ -1,0 +1,60 @@
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\git tutorial>
+D:\git tutorial>
+D:\git tutorial>git init
+Initialized empty Git repository in D:/git tutorial/.git/
+
+D:\git tutorial>git add .        
+
+D:\git tutorial>git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Kavinhema@LAPTOP-QOL52N5F.(none)')
+
+D:\git tutorial>git config --global user.name "Ashok"
+
+D:\git tutorial>git config --global user.email "ashokramachandran.it@gmail.com"
+
+D:\git tutorial>git config --global user.name
+Ashok
+
+D:\git tutorial>git config --global user.email
+ashokramachandran.it@gmail.com
+
+D:\git tutorial>
+D:\git tutorial>
+D:\git tutorial>git commit -m "first commit"
+[master (root-commit) 6a08596] first commit
+ 2 files changed, 54 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app.py
+
+D:\git tutorial>git branch -M main
+
+D:\git tutorial>git remote add origin https://github.com/ashokramachandranit-png/git_hub.git
+
+D:\git tutorial>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 570 bytes | 285.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ashokramachandranit-png/git_hub.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\git tutorial>
